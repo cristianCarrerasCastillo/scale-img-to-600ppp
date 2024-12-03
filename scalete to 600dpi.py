@@ -18,8 +18,8 @@ def scale_images_to_600_dpi(folder_path):
             image_path = os.path.join(folder_path, image_file)
             with Image.open(image_path) as img:
                 img.info['dpi'] = (600,600)
-                output_folder = os.path.join(output_folder,image_file)
-                img.save(output_folder, dpi=(600,600))
+                output_path = os.path.join(output_folder,image_file)
+                img.save(output_path, dpi=(600,600))
         except Exception as e:
             print(f"Error procesando {image_file}: {e}")
 
