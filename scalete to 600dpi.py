@@ -1,6 +1,7 @@
 import os
 from tkinter import Tk, filedialog, messagebox
 from PIL import Image
+import sys
 
 def scale_images_to_600_dpi(folder_path):
     supported_formats = ('.jpg', '.jpeg', '.png', '.bmp', '.tiff')
@@ -43,3 +44,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    sys.exit()
