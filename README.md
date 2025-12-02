@@ -1,5 +1,4 @@
-# Escalador de Imágenes a 600 ppp
-# Image Scaler to 600 DPI
+# Image Scaler to 600 PPP(DPI)
 
 A ready-to-use Windows `.exe` build is available — you can download and run the executable directly without cloning the repository or installing Python/dependencies.
 
