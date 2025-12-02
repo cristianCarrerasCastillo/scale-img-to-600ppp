@@ -4,6 +4,34 @@ A ready-to-use Windows `.exe` build is available — you can download and run th
 
 This Python program lets the user select a folder containing images and automatically scales them to 600 DPI (ppp). Processed images are saved in a subfolder named `Scaled_600_dpi` inside the selected folder.
 
+## Using the `.exe` build
+- If you prefer not to install Python or dependencies, download the Windows `.exe` build and run it directly. The executable performs the same image-scaling task and saves output to the `Scaled_600_dpi` folder.
+- Download the latest `.exe` from the project's Releases page:
+
+	https://github.com/cristianCarrerasCastillo/scale-img-to-600ppp/releases
+
+	Or use the latest release direct link:
+
+	https://github.com/cristianCarrerasCastillo/scale-img-to-600ppp/releases/latest
+
+## 📚 How to Cite This Tool
+
+If you use scale-img-to-600ppp in your research, please cite it as:
+
+Carreras C. (2025). scale-img-to-600ppp: A tool to batch-convert images to 600 DPI for scientific publication workflows. GitHub Repository.
+https://github.com/cristianCarrerasCastillo/scale-img-to-600ppp
+
+Or in BibTeX format:
+```bibtex
+@misc{Carreras2025scale-img-to-600ppp,
+  author       = {Carreras, Cristian},
+  title        = {scale-img-to-600ppp: A tool to batch-convert images to 600 DPI for scientific publication workflows},
+  year         = {2025},
+  howpublished = {\url{https://github.com/cristianCarrerasCastillo/scale-img-to-600ppp}},
+  note         = {GitHub repository}
+}
+```
+
 ## Features
 - Simple graphical interface using `Tkinter`.
 - Supports multiple image formats: `.jpg`, `.jpeg`, `.png`, `.bmp`, `.tiff`.
@@ -37,14 +65,6 @@ A window will appear allowing you to select a folder. All supported images in th
 - If no supported images are found in the selected folder, the program shows a message indicating there are no images to process.
 - The program preserves the original image formats when saving the scaled copies.
 
-## Using the `.exe` build
-- If you prefer not to install Python or dependencies, download the Windows `.exe` build and run it directly. The executable performs the same image-scaling task and saves output to the `Scaled_600_dpi` folder.
-- Download the latest `.exe` from the project's Releases page:
 
-	https://github.com/cristianCarrerasCastillo/scale-img-to-600ppp/releases
-
-	Or use the latest release direct link:
-
-	https://github.com/cristianCarrerasCastillo/scale-img-to-600ppp/releases/latest
 
 
